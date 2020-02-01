@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan department">
+	<test thread-count="5" name="Regression">
+		
+        <groups>
+       <run>
+       <include name="Smoke"/>
+       
+       
+       </run>
+        
+        
+        
+        </groups>
+        <classes>
+        <class name="Testcases.Test1"/>
+				<class name="Testcases.Test2" />
+			<class name="Testcases.Test3"/>
+			<class name="Testcases.Test4"/>
+
+	
+			<class name="Testcases.Carloan"/>
+				
+			<class name="Testcases.Homeloan"/>
+				
+		</classes>
+
+
+
+
+	</test>
+</suite> <!-- Suite -->

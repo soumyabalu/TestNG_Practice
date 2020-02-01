@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="15" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan department" duration-ms="152" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Test3.managerSection()[pri:0, instance:Testcases.Test3@5f9d02cb]" name="managerSection" class="Testcases.Test3"/>
+        <method signature="Test4.went()[pri:0, instance:Testcases.Test4@370736d9]" name="went" class="Testcases.Test4"/>
+        <method signature="Carloan.mobileSigninHome()[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileSigninHome" class="Testcases.Carloan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Car Loanapproval" duration-ms="98" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+      <class name="Testcases.Carloan">
+        <test-method status="PASS" signature="doing()[pri:0, instance:Testcases.Carloan@578486a3]" name="doing" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doing -->
+        <test-method status="PASS" signature="mobileLoginHome(java.lang.String)[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileLoginHome" duration-ms="10" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHome -->
+        <test-method status="PASS" signature="mobileSigninHome()[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileSigninHome" duration-ms="4" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigninHome -->
+        <test-method status="PASS" signature="webLoginCar(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Carloan@578486a3]" name="webLoginCar" duration-ms="3" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[efgh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCar -->
+        <test-method status="PASS" signature="mobileSignoutHome(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileSignoutHome" duration-ms="2" started-at="2020-01-31T05:15:58 EST" data-provider="getData" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutHome -->
+        <test-method status="PASS" signature="mobileSignoutHome(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileSignoutHome" duration-ms="1" started-at="2020-01-31T05:15:58 EST" data-provider="getData" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutHome -->
+        <test-method status="PASS" signature="mobileSignoutHome(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Carloan@578486a3]" name="mobileSignoutHome" duration-ms="2" started-at="2020-01-31T05:15:58 EST" data-provider="getData" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignoutHome -->
+        <test-method status="PASS" signature="APILoginHome()[pri:0, instance:Testcases.Carloan@578486a3]" name="APILoginHome" duration-ms="2" started-at="2020-01-31T05:15:58 EST" depends-on-methods="Testcases.Carloan.mobileLoginHome, Testcases.Carloan.mobileSigninHome, Testcases.Carloan.webLoginCar" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHome -->
+        <test-method status="PASS" signature="getting()[pri:0, instance:Testcases.Carloan@578486a3]" name="getting" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getting -->
+      </class> <!-- Testcases.Carloan -->
+    </test> <!-- Car Loanapproval -->
+    <test name="Personal LoanApproval" duration-ms="73" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+      <class name="Testcases.Test3">
+        <test-method status="PASS" signature="managerSection()[pri:0, instance:Testcases.Test3@5f9d02cb]" name="managerSection" duration-ms="15" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerSection -->
+      </class> <!-- Testcases.Test3 -->
+      <class name="Testcases.Test4">
+        <test-method status="PASS" signature="section()[pri:0, instance:Testcases.Test4@370736d9]" name="section" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- section -->
+        <test-method status="PASS" signature="went()[pri:0, instance:Testcases.Test4@370736d9]" name="went" duration-ms="5" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- went -->
+      </class> <!-- Testcases.Test4 -->
+      <class name="Testcases.Test1">
+        <test-method status="PASS" signature="tell()[pri:0, instance:Testcases.Test1@3108bc]" name="tell" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tell -->
+        <test-method status="PASS" signature="demo(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Test1@3108bc]" name="demo" duration-ms="12" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="say()[pri:0, instance:Testcases.Test1@3108bc]" name="say" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- say -->
+      </class> <!-- Testcases.Test1 -->
+      <class name="Testcases.Test2">
+        <test-method status="PASS" signature="demo3()[pri:0, instance:Testcases.Test2@6536e911]" name="demo3" is-config="true" duration-ms="0" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- Testcases.Test2 -->
+    </test> <!-- Personal LoanApproval -->
+    <test name="Home Loanapproval" duration-ms="7" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+      <class name="Testcases.Homeloan">
+        <test-method status="PASS" signature="APIloginHome()[pri:0, instance:Testcases.Homeloan@4973813a]" name="APIloginHome" duration-ms="4" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginHome -->
+      </class> <!-- Testcases.Homeloan -->
+      <class name="Testcases.Test3">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testcases.Test3@5f9d02cb]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testcases.Test3 -->
+      <class name="Testcases.Test1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testcases.Test1@3108bc]" name="beforeTest" is-config="true" duration-ms="16" started-at="2020-01-31T05:15:58 EST" finished-at="2020-01-31T05:15:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- Testcases.Test1 -->
+    </test> <!-- Home Loanapproval -->
+  </suite> <!-- Loan department -->
+</testng-results>
